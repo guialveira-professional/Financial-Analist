@@ -32,6 +32,6 @@ FinancialAnalist.MovingAverageAnalisys(df_dif_inflacao, short_window=3, long_win
 - dolar_vs_real_dif( df_dolar_mundial, df_dolar_real ) : retorna as tendências de curto e longo da comparação entre a valorização do dolár nas escalas mundial e nacional
 - juros_eua_br( df_juros_eua, df_juros_br ) : retorna as tendências de curto e longo da comparação entre a as taxas de juros americana e brasileira
 - inflacao_eua_br( df_inflacao_eua, df_inflacao_br ) : retorna as tendências de curto e longo da comparação entre a as inflações americana e brasileira
-- medo( df_medo ) : retorna se o mercado indica medo ou não
+- medo( df_medo ) : retorna a tendência do medo em relação à media histórica
 - ouro( df_ouro_preco, df_ouro_volume ) : retorna a tendência de curto prazo e se o índice de negociação está alto ou baixo
 - stock( df_stock_preco, df_stock_volume ) : retorna as tendências de curto e longo prazo e se o índice de negociação está alto ou baixo.
